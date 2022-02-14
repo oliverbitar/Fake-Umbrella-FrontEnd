@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+nav button.blue {
+  color: rgb(86, 172, 172);
+}
+
+header {
+  color: rgb(86, 172, 172);
+  text-align: center;
+}

@@ -1,0 +1,20 @@
+<nav><Button routerLink="/add">Add</Button></nav>
+
+<table>
+    <thead>
+        <th>Company Name</th>
+        <th>Contact Person</th>
+        <th>Phone Number</th>
+        <th>Number Of Employees</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let customer of customers">
+            <td>{{customer.name}}</td>
+            <td>{{customer.contact}}</td>
+            <td>{{customer.phoneNb}}</td>
+            <td>{{customer.employees}}</td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </tr>
+    </tbody>
+</table>

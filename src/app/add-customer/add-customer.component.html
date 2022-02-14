@@ -1,0 +1,24 @@
+<div class="container">
+    <h1>Add Customer</h1>
+    <p>Please fill in this form to create a customer.</p>
+    <hr>
+
+    <label for="Company Name"><b>Compant Name</b></label>
+    <input [(ngModel)]="name"  placeholder="Enter Name" required>
+    <br>
+
+    <label for="Contact Info"><b>Contact Info</b></label>
+    <input [(ngModel)]="info" placeholder="Enter Contact" required>
+    <br>
+
+    <label for="PhoneNb"><b>Phone Number</b></label>
+    <input [(ngModel)]="phone"  placeholder="Enter Number" required>
+    <br>
+
+    <label for="Employees"><b># of Employees</b></label>
+    <input [(ngModel)]="number"  placeholder="Enter Number" required>
+    <br>
+
+    <button (click)="onAdd()" routerLink="/customerdb" type="submit" class="add">Add</button>
+    <button routerLink="/customerdb" type="submit" class="back">Back</button>
+    </div>
