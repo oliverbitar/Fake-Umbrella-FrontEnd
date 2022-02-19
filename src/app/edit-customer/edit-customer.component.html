@@ -1,0 +1,28 @@
+<div class="container">
+    <h1>Edit Customer</h1>
+    <p>Please edit the sections that you want</p>
+    <hr>
+
+    <label for="Company Name"><b>Company Name</b></label>
+    <input id = "name" required>
+    <br>
+
+    <label for="Contact Info"><b>Contact Info</b></label>
+    <input id="info" required>
+    <br>
+
+    <label for="City"><b>City</b></label>
+    <input id="location" required>
+    <br>
+
+    <label for="PhoneNb"><b>Phone Number</b></label>
+    <input id="phone" required>
+    <br>
+
+    <label for="Employees"><b># of Employees</b></label>
+    <input id ="number" required>
+    <br>
+
+    <button (click)="onEdit()" type="submit" class="edit">Edit</button>
+    <button routerLink="/customerdb" type="submit" class="back">Back</button>
+    </div>

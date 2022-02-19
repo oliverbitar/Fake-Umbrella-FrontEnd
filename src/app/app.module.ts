@@ -10,6 +10,7 @@ import { TopFourComponent } from './top-four/top-four.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AddCustomerComponent } from './add-customer/add-customer.component';
 import { FormsModule } from '@angular/forms';
+import { EditCustomerComponent } from './edit-customer/edit-customer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     CustomerDatabaseComponent,
     NextRainComponent,
     TopFourComponent,
-    AddCustomerComponent
+    AddCustomerComponent,
+    EditCustomerComponent
   ],
   imports: [
     BrowserModule,

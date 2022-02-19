@@ -4,6 +4,7 @@
     <thead>
         <th>Company Name</th>
         <th>Contact Person</th>
+        <th>Location</th>
         <th>Phone Number</th>
         <th>Number Of Employees</th>
     </thead>
@@ -11,10 +12,11 @@
         <tr *ngFor="let customer of customers">
             <td>{{customer.name}}</td>
             <td>{{customer.contact}}</td>
+            <td>{{customer.location}}</td>
             <td>{{customer.phoneNb}}</td>
             <td>{{customer.employees}}</td>
-            <button>Edit</button>
-            <button>Delete</button>
+            <button (click)="edit(customer)">Edit</button>
+            <button (click)="delete(customer.id)">Delete</button>
         </tr>
     </tbody>
 </table>
