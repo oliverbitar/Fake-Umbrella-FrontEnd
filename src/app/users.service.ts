@@ -32,7 +32,6 @@ export class UsersService {
     let url = "https://api.openweathermap.org/data/2.5/forecast?q="+city+"&appid=a9743f3872b744f135bf1e69c5ee6d63"
     return this.http.get(url);
   }
-
 }
 export class Customer{
  // id: number;

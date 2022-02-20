@@ -29,7 +29,6 @@ export class CustomerDatabaseComponent implements OnInit {
    edit(cust){
      
      this.serv.id = cust.id;
-     alert(cust.id);
      this.serv.customer = cust;
     this.router.navigate(['/edit']);
    }
